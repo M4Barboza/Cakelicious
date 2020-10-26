@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link href="../extras/forms.css" rel="stylesheet" />
+  </head>
+  <body>
+    <form action="/pagina-dados-form" method="post">
+      <div class="box-form">
+        <div class="texto-descrição">
+          <h3>
+            Neste formulário você deve preencher as seguintes informações:
+          </h3>
+          <ol>
+            <li>Nome</li>
+            <li>Email</li>
+            <li>Mensagem</li>
+          </ol>
+        </div>
+
+        <label for="nome">Nome:</label>
+        <input id="nome" type="text" placeholder="Nome" />
+        <label for="email">E-mail:</label>
+        <input id="email" type="email" placeholder="E-mail" />
+        <label for="msg">Mensagem:</label>
+        <textarea id="msg"></textarea>
+
+        <button>Enviar</button>
+      </div>
+    </form>
+  </body>
+</html>

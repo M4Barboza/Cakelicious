@@ -1,0 +1,14 @@
+body {
+  background-color: #222222;
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+body .box-form {
+  background-color: #ffffff;
+  width: 600px;
+  padding: 40px 40px 40px 40px;
+  top: 30%;
+  left: 30%;
+  position: absolute;
+}
